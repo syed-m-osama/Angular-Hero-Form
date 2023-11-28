@@ -1,0 +1,9 @@
+<p>test works!</p>
+
+<div *ngIf="title else elseBlock">
+  <h1> True: Value = {{title}} </h1>
+</div>
+<ng-template #elseBlock >
+  <h1> False: Value = Not Provided </h1>
+</ng-template>
+
